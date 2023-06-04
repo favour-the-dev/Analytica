@@ -1,7 +1,17 @@
+import Wrapper from "../components/wrapper";
 export default function Home(){
     return(
         <>
-            <h1>Hello world</h1>
+            <Wrapper>
+                <div className="w-full">
+                    <div>
+                        <div></div>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </Wrapper>
         </>
     );
 }
